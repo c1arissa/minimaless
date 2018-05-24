@@ -1,6 +1,6 @@
 ---
 layout: page
-title: setup
+title: Setup
 permalink: /setup/
 ---
 
@@ -79,3 +79,48 @@ gem "minimaless"
     - Instead of using Travis CI to build your site remotely when you push, you could also build your site locally and push your site to a separate `gh-pages` branch by [following these instructions](https://gist.github.com/cobyism/4730490).
 11. You may consider using something like [prose.io](http://prose.io) to manage your blog posts from the web.
 
+---
+
+# Code Examples
+
+### C
+<pre><code>#include &lt;iostream&gt;
+
+int main(int argc, char *argv[]) {
+
+  /* An annoying "Hello World" example */
+  for (auto i = 0; i < 0xFFFF; i++)
+    cout << "Hello, World!" << endl;
+
+  char c = '\n';
+  unordered_map &lt;string, vector&lt;string&gt; &gt; m;
+  m["key"] = "\\\\"; // this is an error
+
+  return -2e3 + 12l;
+}</code></pre>
+
+### MS DOS
+<pre><code class="dos">cd \
+copy a b
+ping 192.168.0.1
+@rem ping 192.168.0.1
+net stop sharedaccess
+del %tmp% /f /s /q
+del %temp% /f /s /q
+ipconfig /flushdns
+taskkill /F /IM JAVA.EXE /T
+
+cd Photoshop/Adobe Photoshop CS3/AMT/
+if exist application.sif (
+    ren application.sif _application.sif
+) else (
+    ren _application.sif application.sif
+)
+
+taskkill /F /IM proquota.exe /T
+
+sfc /SCANNOW
+
+set path = test
+
+xcopy %1\*.* %2</code></pre>

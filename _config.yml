@@ -19,6 +19,9 @@ facebook_username: brettinternet
 instagram_username: brettinternet
 keybase_username: brettinternet
 
+highlightStyle: dracula
+highlightLanguages: [ dos, vim, x86asm ]
+
 # use Font Awesome icon names http://fontawesome.io/icons/
 links:
   - url: https://google.com
@@ -54,7 +57,8 @@ header_pages:
   - _pages/about.md
   - _pages/contact.md
   - _pages/setup.md
-  - _pages/github.md
+ #- _pages/github.md
+  - _pages/splash.md
 
 plugins:
   - jekyll-feed

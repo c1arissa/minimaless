@@ -59,6 +59,8 @@ header_pages:
   - _pages/setup.md
  #- _pages/github.md
   - _pages/splash.md
+  - _pages/splash2.html
+  - splash_landing.html
 
 plugins:
   - jekyll-feed

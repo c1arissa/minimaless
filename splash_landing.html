@@ -18,7 +18,7 @@ title: Landing
             <img src="prof.jpg" alt="" />
           </div>
           
-          <h1 id="text01">Hello</h1>
+          <h1 id="text01">{{ site.author }}</h1>
           <p id="text04">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec volutpat augue. Etiam placerat luctus scelerisque. Cras scelerisque mauris nec pharetra dignissim. Morbi id posuere nisi. Etiam in sapien, vulputate sed lorem velit.</p>
           
           <hr id="divider01">
@@ -35,10 +35,10 @@ title: Landing
           </ul>       
 -->
           <ul id="buttons01" class="buttons">
-            <li><a href="/index.html" class="button n01">Home</a></li>
-            <li><a href="#work" class="button n02">Work</a></li>
-            <li><a href="/about" class="button n03">About</a></li>
-            <li><a href="/contact" class="button n04">Contact</a></li>
+            <li><a href="{{ site.baseurl }}/index.html" class="button n01">Home</a></li>
+            <li><a href="{{ site.baseurl }}/_page/blog" class="button n02">Blog</a></li>
+            <li><a href="{{ site.baseurl }}/_page/about" class="button n03">About</a></li>
+            <li><a href="{{ site.baseurl }}/_page/contact" class="button n04">Contact</a></li>
           </ul>
         </div>
       </div>

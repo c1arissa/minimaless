@@ -442,3 +442,23 @@
 .tag-count {
   margin-left: 3px;
 }
+
+.download {
+    display: inline-block;
+    width: 15em;
+    padding: 1em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    color: gray;
+    border: solid 1px orchid;
+}
+
+.resume::before {
+    margin-right: 0.5em;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Font Awesome 5 Free"; content: "\f019";
+  }

@@ -37,6 +37,9 @@ links:
     icon: false
   - url: https://google.com
     title: Cool Site
+  - url: https://c1arissa.github.io/minimaless/blog/
+    title: Blog / Read Me
+    icon: fab fa-readme
 
 # disqus:
 #   shortname: 

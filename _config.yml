@@ -63,6 +63,7 @@ header_pages:
  #- _pages/github.md
   - _pages/splash.md
   - splash_landing.html
+  - _pages/links.md
 
 plugins:
   - jekyll-feed

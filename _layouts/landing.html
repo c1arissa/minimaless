@@ -44,7 +44,7 @@
       a {-moz-transition: color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;-webkit-transition: color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;-ms-transition: color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;transition: color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;color: inherit;text-decoration: underline;}
       s {text-decoration: line-through;}
       body:before {content: '';display: block;position: fixed;top: 0;left: 0;width: 100vw;height: 100vh;z-index: 0;-moz-pointer-events: none;-webkit-pointer-events: none;-ms-pointer-events: none;pointer-events: none;-moz-transform: scale(1);-webkit-transform: scale(1);-ms-transform: scale(1);transform: scale(1);background-image: linear-gradient(to top, rgba(175,175,201,0.42), rgba(175,175,201,0.42)), url('clouds.jpg');background-position: 0% 0%, center;background-repeat: repeat, no-repeat;background-size: auto, cover;background-attachment: scroll;background-color: #FFFFFF;}
-      body:after {display: block;content: '';position: fixed;top: 0;left: 0;width: 100%;height: 100%;background-color: #000000;z-index: 1;opacity: 0;visibility: hidden;-moz-transition: opacity 1s ease-in-out 0.375s, visibility 1s 0.375s;-webkit-transition: opacity 1s ease-in-out 0.375s, visibility 1s 0.375s;-ms-transition: opacity 1s ease-in-out 0.375s, visibility 1s 0.375s;transition: opacity 1s ease-in-out 0.375s, visibility 1s 0.375s;-moz-transform: scale(1);-webkit-transform: scale(1);-ms-transform: scale(1);transform: scale(1);}
+      body:after {display: block;content: '';position: fixed;top: 0;left: 0;width: 100%;height: 100%;background-color: #3F3840;z-index: 1;opacity: 0;visibility: hidden;-moz-transition: opacity 1s ease-in-out 0.375s, visibility 1s 0.375s;-webkit-transition: opacity 1s ease-in-out 0.375s, visibility 1s 0.375s;-ms-transition: opacity 1s ease-in-out 0.375s, visibility 1s 0.375s;transition: opacity 1s ease-in-out 0.375s, visibility 1s 0.375s;-moz-transform: scale(1);-webkit-transform: scale(1);-ms-transform: scale(1);transform: scale(1);}
       body.is-loading:after {opacity: 1;visibility: visible;}
       html {font-size: 18pt;}
       #wrapper {-webkit-overflow-scrolling: touch;display: -moz-flex;display: -webkit-flex;display: -ms-flex;display: flex;-moz-flex-direction: column;-webkit-flex-direction: column;-ms-flex-direction: column;flex-direction: column;-moz-align-items: center;-webkit-align-items: center;-ms-align-items: center;align-items: center;-moz-justify-content: center;-webkit-justify-content: center;-ms-justify-content: center;justify-content: center;min-height: 100vh;position: relative;z-index: 2;overflow: hidden;padding: 1.5625rem 1.5625rem 1.5625rem 1.5625rem;}
@@ -127,18 +127,17 @@
       hr:before {content: '';display: inline-block;vertical-align: middle;width: 15%;background-color: rgba(255,255,255,0.169);height: 2px;}
       
       .buttons {cursor: default;padding: 0;letter-spacing: 0;}
-      .buttons li a {text-decoration: none;text-align: center;white-space: nowrap;max-width: 100%;margin-bottom: 2px;}
+      .buttons li a {text-decoration: none;text-align: center;white-space: nowrap;max-width: 100%;}
       /*
       #buttons01 {width: calc(100% + 0.625rem);margin-left: -0.3125rem;} 
       #buttons01 li {display: inline-block;vertical-align: middle;max-width: calc(100% - 0.625rem);margin: 0.3125rem;} 
       #buttons01 li a {display: block;width: 5.75rem;height: 2.25rem;line-height: 2.25rem;padding: 0 1.125rem;text-transform: uppercase;font-size: 0.625em;font-family: 'Lato';letter-spacing: 0.075rem;padding-left: calc(0.075rem + 1.125rem);font-weight: 700;border-radius: 0.375rem;} border-radius: 1.625rem } 
       */
 
-      /*
       #buttons01 {width: calc(100% + 0.5rem);margin-left: -0.25rem;}
       #buttons01 li {display: inline-block;vertical-align: middle;max-width: calc(100% - 0.5rem);margin: 0.25rem;}
       #buttons01 li a {display: block;width: 5.75rem;height: 2.25rem;line-height: 2.25rem;padding: 0 1.125rem;text-transform: uppercase;font-size: 0.625em;font-family: 'Lato';letter-spacing: 0.225rem;padding-left: calc(0.225rem + 1.125rem);font-weight: 400;border-radius: 1.625rem;}
-      #buttons01 li a {display: block;width: 6.5rem;height: 2.25rem;line-height: 2.25rem;padding: 0 1.125rem;text-transform: uppercase;font-size: 0.625em;font-family: 'Lato';letter-spacing: 0.225rem;padding-left: calc(0.225rem + 1.125rem);font-weight: 400;border-radius: 1.625rem;} 
+      /*#buttons01 li a {display: block;width: 6.5rem;height: 2.25rem;line-height: 2.25rem;padding: 0 1.125rem;text-transform: uppercase;font-size: 0.625em;font-family: 'Lato';letter-spacing: 0.225rem;padding-left: calc(0.225rem + 1.125rem);font-weight: 400;border-radius: 1.625rem;} 
       */
       #buttons01 .n01 {color: #77D6D6;border: solid 2px rgba(119,214,214,0.251);} /*rgba(255,255,255,0.169);}*/
       #buttons01 .n01:hover {color: #77D6D6;border-color: #77D6D6;font-weight:500;}

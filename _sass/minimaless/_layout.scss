@@ -206,7 +206,6 @@
   -webkit-justify-content: center;
   -moz-justify-content: center;
   justify-content: center;
-  text-align: center;
 
   a {
     color: #EEE;
@@ -224,13 +223,13 @@
   .contact-icons .icon {
     color: #111;
     &:hover {
-      color: $pastel-red;
+      color: $purple;
     }
   }
   .contact-icons .icon .keybase-icon {
     fill: #111;
     &:hover {
-      fill: $pastel-red;
+      fill: $purple;
     }
   }
 }
@@ -267,6 +266,7 @@
 #splash {
   min-height: 100vh;
   padding: 0;
+  text-align: center;
 }
 
 
@@ -309,7 +309,7 @@
   font-weight: bold;
   border-bottom: 1px solid $grey-color;
   &:hover {
-    color: $grey-color;
+    color: $purple;
     text-decoration: none;
   }
 }

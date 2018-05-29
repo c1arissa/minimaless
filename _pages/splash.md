@@ -4,7 +4,7 @@ title: Splash
 permalink: /splash/
 ---
 
-<img stlye="border-radius: 100%;" src="prof.jpg">
+<img stlye="border-radius: 100%;" src="/prof.jpg">
 
 # Clarissa Podell
 

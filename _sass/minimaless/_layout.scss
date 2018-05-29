@@ -206,6 +206,7 @@
   -webkit-justify-content: center;
   -moz-justify-content: center;
   justify-content: center;
+  text-align: center;
 
   a {
     color: #EEE;
@@ -462,3 +463,9 @@
     -webkit-font-smoothing: antialiased;
     font-family: "Font Awesome 5 Free"; content: "\f019";
   }
+
+.image {position: relative;overflow: hidden;max-width: 100%;display: block;}
+.image img {width: 100%;max-width: 100%;display: inline-block;vertical-align: top;}
+#image01 {margin-top: 1rem !important;margin-bottom: 1rem !important;} /* 1.5rem */
+#image01 a, #image01 span {border-radius: 100%;}
+#image01 img {width: 8rem;border-radius: 100%;} /* width: 9rem */

@@ -1,6 +1,6 @@
 title: Clarissa Podell
 author: Clarissa Podell
-email: your-email@domain.com
+email: clarissapodell@gmail.com
 description: >
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
@@ -11,13 +11,13 @@ url: "https://c1arissa.github.io" # the base hostname & protocol for your site, 
 
 website: https://google.com
 github_username:  brettinternet
-bitbucket_username: brettinternet
-codepen_username: brettinternet
+#bitbucket_username: brettinternet
+#codepen_username: brettinternet
 linkedin_username: brettinternet
-twitter_username: brettinternet
-facebook_username: brettinternet
-instagram_username: brettinternet
-keybase_username: brettinternet
+#twitter_username: brettinternet
+#facebook_username: brettinternet
+#instagram_username: brettinternet
+#keybase_username: brettinternet
 
 highlightStyle: dracula
 highlightLanguages: [ dos, vim, x86asm ]

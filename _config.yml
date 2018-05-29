@@ -62,7 +62,7 @@ header_pages:
   - _pages/contact.md
   - _pages/setup.md
  #- _pages/github.md
-  - _pages/splash.md
+  - _pages/splash.html
   - splash_landing.html
   - _pages/links.md
 
